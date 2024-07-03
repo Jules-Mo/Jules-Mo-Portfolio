@@ -83,3 +83,17 @@ h1 {
     width: 400px;
   }
 }
+
+@media (max-width: 799px) {
+  .skillList {
+    flex-direction: column;
+  }
+
+  .skill {
+    width: 100%; /* Une compétence par ligne */
+  }
+
+  hr {
+    display: none; /* Masquer la barre hr */
+  }
+}
