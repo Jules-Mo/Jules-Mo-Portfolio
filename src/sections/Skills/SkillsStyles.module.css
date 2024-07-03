@@ -46,47 +46,31 @@ body.theme-transition {
 
 .skillList {
   display: flex;
-  align-self: center;
-  animation: fadeIn 1s ease-in-out;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
 }
 
-@media (width >= 800px) {
-  .container {
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-evenly;
-  }
+.skillList img {
+  width: 20px;
+  margin-right: 8px;
 }
 
-@media (width >= 1400px) {
-  .container .me {
-    max-width: 400px;
-    width: 400px;
-  }
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-
-  img {
-    width: 20px;
-  }
-}
-
-@media (width >= 800px) {
+@media (min-width: 800px) {
   .skillList {
-    max-width: fit-content;
     gap: 30px;
-    display: flex;
-
-    p {
-      font-size: 20px;
-    }
   }
 
   hr {
     width: 300px;
+    margin: 20px auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container .me {
+    max-width: 400px;
+    width: 400px;
   }
 }
