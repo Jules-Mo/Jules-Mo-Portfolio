@@ -29,7 +29,7 @@ body.theme-transition {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px; /* Réduit l'espace entre les sections */
   animation: fadeIn 1s ease-in-out;
   transition: background-color 0.3s ease, color 0.3s ease;
 }

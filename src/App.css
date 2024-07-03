@@ -57,7 +57,7 @@ body {
 #root {
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 40px; /* Distance par défaut pour les petits écrans */
 }
 
 h1, h2, h3, p {
@@ -89,7 +89,7 @@ p {
 }
 
 .sectionTitle {
-  margin-bottom: 30px;
+  margin-bottom: 20px; /* Ajustement pour les petits écrans */
 }
 
 .hover {
@@ -122,6 +122,7 @@ p {
   #root {
     gap: 200px;
   }
+  
   h1 {
     font-size: 48px;
   }
