@@ -84,13 +84,17 @@ h1 {
   }
 }
 
-@media (max-width: 799px) {
+@media (max-width: 599px) {
   .skillList {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap; /* Permettre le wrapping des éléments */
+    justify-content: center; /* Centrer les compétences */
   }
 
   .skill {
-    width: 100%; /* Une compétence par ligne */
+    width: 45%; /* Deux compétences par ligne */
+    margin: 2.5%; /* Ajoute un peu d'espacement horizontal entre les compétences */
+    box-sizing: border-box; /* Assure que la largeur inclut le padding */
   }
 
   hr {
