@@ -58,7 +58,6 @@ a {
 }
 
 button {
-  margin-top: 50px;
   background-color: var(--btn-color);
   color: var(--btn-text-color);
   border: none;
