@@ -25,6 +25,10 @@ body.theme-transition {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+h1 {
+  margin-bottom: 30px;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -52,9 +56,14 @@ body.theme-transition {
   margin-top: 20px;
 }
 
-.skillList img {
-  width: 20px;
-  margin-right: 8px;
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skillName {
+  font-size: 16px;
 }
 
 @media (min-width: 800px) {
