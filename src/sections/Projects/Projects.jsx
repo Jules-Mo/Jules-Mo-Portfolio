@@ -18,12 +18,6 @@ function Projects() {
           h3="Lery Technologies"
           p={language === 'fr' ? 'Formation routière' : 'Road Training'}
         />
-        <ProjectCard
-          src={Pong}
-          link="dossier_pong/index.html"
-          h3="Pong"
-          p={language === 'fr' ? 'Jeu de Pong' : 'Pong Game'}
-        />
       </div>
     </section>
   );
